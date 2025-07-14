@@ -3,9 +3,9 @@ ENV PYTHONDONTWRITEBYTECODE = 1 \
     PYTHONUNBUFFERED = 1
 
 WORKDIR /app
-RUN apt-get-update && app-get-install -y --no-install-recommends \
+RUN apt-get-update && app-get install -y --no-install-recommends \
 libgomp1 \
-&& apt-get-clean \
+&& apt-get clean \
 && rm -rf /var/lib/apt/list/*
 
 COPY . .
