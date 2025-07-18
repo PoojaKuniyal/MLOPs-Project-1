@@ -83,4 +83,7 @@ A short video walkthrough (~2.4 mins) shows:
 - Code flow
 - MLOps integration
 - App functionality
-👉 [Watch the demo video on Google Drive](https://drive.google.com/file/d/1O0N-ljPudAXanFRtPmbCvv7U_XQLDviB/view?usp=sharing)
+## 🎥 Project Demo Video
+
+▶️ [Watch on Vimeo](https://vimeo.com/1102609084)
+
