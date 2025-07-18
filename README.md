@@ -53,15 +53,16 @@ Hotels face frequent last-minute cancellations, leading to loss in revenue and p
 
 ## 🔁 MLOps Pipeline
 
-```mermaid
-graph TD
-    A[Upload CSV to GCP Bucket] --> B[Extract in VSCode using Service Account Key]
-    B --> C[Data Cleaning & Preprocessing]
-    C --> D[MLflow Tracking + RandomForest Feature Selection]
-    D --> E[Train LightGBM Model]
-    E --> F[Dockerize Flask App]
-    F --> G[Jenkins CI/CD Pipeline]
-    G --> H[Deploy via Cloud Run & GCR]
+A Upload CSV to GCP Bucket
+B Extract in VSCode using Service Account Key
+C Data Cleaning & Preprocessing
+ D MLflow Tracking + RandomForest Feature Selection
+ E Train LightGBM Model
+ F Dockerize Flask App
+ G Jenkins CI/CD Pipeline
+ H Deploy via Cloud Run & GCR
+
+
 
 ---
 🖥️ Web Application
@@ -82,4 +83,4 @@ A short video walkthrough (~2.4 mins) shows:
 - Code flow
 - MLOps integration
 - App functionality
-https://drive.google.com/file/d/1O0N-ljPudAXanFRtPmbCvv7U_XQLDviB/view?usp=sharing
+👉 [Watch the demo video on Google Drive](https://drive.google.com/file/d/1O0N-ljPudAXanFRtPmbCvv7U_XQLDviB/view?usp=sharing)
